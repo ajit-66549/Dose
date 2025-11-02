@@ -1,0 +1,27 @@
+.prog-main {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  margin: 8px;
+}
+
+.chart {
+  background-color: #eee;
+  border-radius: 4px;
+  height: 10px;
+  width: 100%;
+}
+
+/* New — blue progress bar */
+.chart-fill {
+  height: 100%;
+  background-color: blue;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* When goal is completed */
+.chart-fill.complete {
+  background-color: green;
+}
